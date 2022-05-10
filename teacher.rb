@@ -6,10 +6,6 @@ class Teacher < Person
     @specialization = specialization
   end
 
-  def play_hooky
-    "¯\(ツ)/¯"
-  end
-
   def can_use_services?
     true
   end
