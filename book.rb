@@ -1,6 +1,5 @@
 class Book
-  acessor_attr :title, :author
-  reader_attr :rentals
+  attr_acessor :title, :author, :rentals
 
   def initialize(title, author)
     @title = title
@@ -9,6 +8,6 @@ class Book
   end
 
   def create_rental(date, person)
-    Rental.new(date, safe, person)
+    Rental.new(date, self, person)
   end
 end
