@@ -121,7 +121,7 @@ class App
     name = gets.chomp.strip.capitalize
     print 'Specialization: '
     specialization = gets.chomp.strip.capitalize
-    teacher = Teacher.new(@id, age, name, specialization)
+    teacher = Teacher.new(age, name, specialization)
     @people << teacher
     puts 'Person created successfully'
   end
