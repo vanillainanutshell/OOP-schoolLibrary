@@ -105,7 +105,7 @@ class App
       @id -= 1
       return
     end
-    student = Student.new(@id, age, nil, name, parent_permission: permission)
+    student = Student.new(@id, age, name, parent_permission: permission)
     @people << student
     puts 'Person created successfully'
   end
@@ -132,13 +132,13 @@ class App
     print 'Author: '
     author = gets.chomp.strip.capitalize
     book = Book.new(title, author)
-    @books < book
+    @books << book
     puts 'Book created successfully'
   end
 
   def list_all_people
     @people.each_with_index do |person, index|
-      puts '#{index}) [#{person.class.name}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}'
+      puts "#{index}) [#{person.class.name}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
     end
   end
 
