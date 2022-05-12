@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-- Run the command `list_enumerable.rb`.
+- Run the command `ruby main.rb`.
 
 
 ## Authors
