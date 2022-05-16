@@ -9,20 +9,6 @@ module ListMethods
     @books.each_with_index { |book, index| puts %{#{index}) Title: \"#{book.title}\", Author: #{book.author}} }
   end
 
-  def create_rental
-    puts 'Select a book from  the following list by number'
-    list_all_books
-    book_selected = gets.chomp.to_i
-    puts 'Select a person from the following list by number (not id)'
-    list_all_people
-    person_selected = gets.chomp.to_i
-    puts
-    print 'Date ( YYYY/MM/DD ): '
-    date = gets.chomp.strip
-    Rental.new(date, @books[book_selected], @people[person_selected])
-    puts 'Rental created successfully'
-  end
-
   def list_person_rentals
     print 'ID of person: '
     id = gets.chomp.to_i
