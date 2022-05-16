@@ -33,6 +33,12 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@vanillainanutshell](https://github.com/vanillainanutshell)
 - LinkedIn: [Mauro Vasconcelos](https://www.linkedin.com/in/vanillainanutshell/)
 
+👤 **Kenny Salazar**
+
+- GitHub: [@helio3197](https://github.com/helio3197)
+- Twitter: [@kennysalazar31](https://twitter.com/kennysalazar31)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/kenny-salazar-1a1687110)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
