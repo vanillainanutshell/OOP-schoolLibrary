@@ -8,7 +8,7 @@ require_relative 'list_methods'
 class App
   include CreateMethods
   include ListMethods
-  
+
   def initialize
     @people = []
     @books = []
